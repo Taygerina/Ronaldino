@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Scrolling
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":83.11691,"y":-108.5539},"zoom":0.77,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-340.0,"y":-1154.0},"guid":"010ae1e9-8c2f-4e72-abe3-d92a0f5ba1b1","$version":"A","$type":"Unity.VisualScripting.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-178.0,"y":-248.0},"guid":"c5d59219-e1fb-4735-bd7c-dab1869096c9","$version":"A","$type":"Unity.VisualScripting.Update","$id":"11"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"Speed","$type":"System.String"}},"position":{"x":-339.0,"y":-110.0},"guid":"6c861413-5646-4844-992d-7a9a11c2ea9b","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"13"},{"defaultValues":{"b":{"$content":0.1,"$type":"System.Single"}},"position":{"x":-91.0,"y":-100.0},"guid":"79da7d85-63c7-4330-9d4f-fd96a3b489eb","$version":"A","$type":"Unity.VisualScripting.ScalarMultiply","$id":"15"},{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{"Speed":{"$content":0.0,"$type":"System.Single"}},"position":{"x":124.0,"y":-188.0},"guid":"28b33108-9078-44a7-81a9-566412f153e7","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit","$id":"17"},{"sourceUnit":{"$ref":"11"},"sourceKey":"trigger","destinationUnit":{"$ref":"17"},"destinationKey":"in","guid":"91a0b06c-799e-4b96-9a12-abb1ca9163b1","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"value","destinationUnit":{"$ref":"15"},"destinationKey":"a","guid":"75296ce5-448e-4573-a1c2-3b72fa704cb6","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"product","destinationUnit":{"$ref":"17"},"destinationKey":"Speed","guid":"bedba60e-b50e-450c-978e-aa3fbe92bbec","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: f9691f9d742c97f4f8a3d6d7e96934eb, type: 2}
