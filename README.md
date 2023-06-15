@@ -40,7 +40,7 @@ Pré-requisitos ⚠️
 Android 6.0+ SDK 24+; Testes em: Redmi note 8t. Samsung M50, Redmi note, Redmi note 6 pro, SAmsung tabe s6 lite
 
 Como rodar a aplicação
-Ao abrir o aplicativo, uma splashscreen com a logo do jogo carregará, após isso fazewr o seu maior score.
+Ao abrir o aplicativo, uma splashscreen com a logo do jogo carregará, após isso fazer o seu maior score.
 
 Linguagens, dependencias e libs utilizadas 📚
 Unity Visual Studio Bolt
